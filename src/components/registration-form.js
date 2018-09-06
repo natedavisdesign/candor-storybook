@@ -1,5 +1,5 @@
 import React from 'react';
-import './../node_modules/bulma/css/bulma.css';
+import '../../node_modules/bulma/css/bulma.css';
 
 export default function RegistrationForm({onSubmit, submitted, submitting}) {
   const buttonClassNames = submitting  ? ['button', 'is-primary', 'is-loading'] : ['button', 'is-primary'];

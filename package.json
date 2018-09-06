@@ -23,5 +23,13 @@
     "@storybook/react": "^3.4.10",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0"
+  },
+  "guppy": {
+    "id": "candor-storybook",
+    "name": "candor-storybook",
+    "type": "create-react-app",
+    "color": "#00bfb5",
+    "icon": null,
+    "createdAt": 1536266670651
   }
 }
