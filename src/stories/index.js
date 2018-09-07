@@ -10,8 +10,7 @@ storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo(
 
 storiesOf('Button', module)
   .add('with text', () => <Button onClick={action('clicked')}>Yay</Button>)
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>
+  .add('with some emoji', () => ( <Button onClick={action('clicked')}>
       <span role="img" aria-label="so cool">
         😀 😎 👍 💯
       </span>

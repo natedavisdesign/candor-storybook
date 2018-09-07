@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf, action } from '@storybook/react';
 
-import RegistrationForm from '../components/registration-form.js';
+import RegistrationForm from '../components/misc/registration-form.js';
 
 const mockSubmit = (e) => {
   e.preventDefault();
