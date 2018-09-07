@@ -7,17 +7,13 @@ import backgrounds from "@storybook/addon-backgrounds";
 
 //Add Phase
 import AddNoImage from '../components/cards/addphase/AddNoImage.js'
-
+import AddLongText from '../components/cards/addphase/AddLongText.js'
 
 
 
 storiesOf('Cards', module)
     //Center Add On
     .addDecorator(centered)
-    //Background Add On
-    .addDecorator(backgrounds([
-        { name: "twitter", value: "#00aced" },
-        { name: "facebook", value: "#3b5998" },
-      ]))
     //List out Cards
-    .add('Add: No Image', () => ( <AddNoImage />));
+    .add('Add: No Image', () => ( <AddNoImage />))
+    .add('Add: Long', () => ( <AddLongText />));
