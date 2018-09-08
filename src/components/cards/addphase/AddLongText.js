@@ -31,6 +31,7 @@ const Idea = styled.p`
     letter-spacing: 0;
     line-height: 20px;
 `
+
 //Component
 const Card = props => (
 

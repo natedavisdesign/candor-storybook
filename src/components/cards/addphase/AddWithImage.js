@@ -1,0 +1,59 @@
+import React from 'react'
+import styled from 'styled-components'
+
+// Styled Components. 
+const AddWithImage = styled.div`
+    width: 327px;
+    height: 156px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.08);
+    border-radius: 6px 6px 6px 6px;
+`
+const User = styled.h3`
+    padding: 18px 214px 6px 20px;
+    color: #9B9B9B;
+    font-size: 12px;
+    font-family: AzoSans-Medium;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+`
+const Idea = styled.p`
+    padding: 6px 51px 0px 20px;
+    color: #4F505B;
+    font-size: 18px;
+    font-family: AzoSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 24px;
+`
+const ImageUploads = styled.div`
+    padding: 16px 100px 20px 20px;
+`
+
+const Uploads = styled.img`
+    width: 60px;
+    border-radius: 2px;
+    margin-right: 8px;
+`
+
+//Component
+const Card = props => (
+
+        <AddWithImage>
+            <User>Jim Morrison</User>
+            <Idea>The Signature Room</Idea>
+                <ImageUploads>
+                <Uploads src={require('../../../../public/images/1.jpg')} width="60" />
+                <Uploads src={require('../../../../public/images/2.jpg')} width="60" />
+                <Uploads src={require('../../../../public/images/3.jpg')} width="60" />
+                </ImageUploads>
+        </AddWithImage>
+
+)
+
+export default Card
+
