@@ -1,6 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import centered from '@storybook/addon-centered';
+import styles from "@sambego/storybook-styles";
 
 //Importing Components
 
@@ -17,12 +18,18 @@ import ButtonSmSecondary from '../components/buttons/small/ButtonSmSecondary.js'
 //Other 
 import ButtonAddIdea from '../components/buttons/other/ButtonAddIdea.js'
 
+import ButtonMainActionEmpty from '../components/buttons/circle/ButtonMainActionEmpty.js'
+
 
 
 
 storiesOf('Buttons', module)
     //Center Add On
     .addDecorator(centered)
+    .addDecorator(styles({
+        background: '#f9f9f9',
+        height: '1000px',
+      }))
     //List out Buttons
     .add('Lg Primary', () => ( <ButtonLgPrimary title="Testing out Props" />))
     .add('Lg Secondary', () => ( <ButtonLgSecondary />))
@@ -31,7 +38,8 @@ storiesOf('Buttons', module)
     .add('Med Secondary', () => ( <ButtonMedSecondary />))
     .add('Sm Primary', () => ( <ButtonSmPrimary />))
     .add('Sm Secondary', () => ( <ButtonSmSecondary />))
-    .add('Add Idea', () => ( <ButtonAddIdea />));
+    .add('Add Idea', () => ( <ButtonAddIdea />))
+    .add('Main Action: Empty', () => ( <ButtonMainActionEmpty />));
 
    
     
