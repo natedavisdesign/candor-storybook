@@ -31,7 +31,7 @@ storiesOf('Buttons', module)
         height: '1000px',
       }))
     //List out Buttons
-    .add('Lg Primary', () => ( <ButtonLgPrimary title="Testing out Props" />))
+    .add('Lg Primary', () => ( <ButtonLgPrimary title="Primary Button" />))
     .add('Lg Secondary', () => ( <ButtonLgSecondary />))
     .add('Lg Inverse', () => ( <ButtonLgInverse />))
     .add('Med Primary', () => ( <ButtonMedPrimary />))
