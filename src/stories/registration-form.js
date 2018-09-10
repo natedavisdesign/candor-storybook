@@ -9,25 +9,3 @@ const mockSubmit = (e) => {
   submitAction(e);
 };
 
-storiesOf('Registration Form', module)
-  .add('default', () => (
-    <RegistrationForm
-      onSubmit={mockSubmit}
-      submitting={false}
-      submitted={false}
-    />
-  ))
-  .add('submitting', () => (
-    <RegistrationForm
-      onSubmit={mockSubmit}
-      submitting
-      submitted={false}
-    />  ))
-  .add('submitted', () => (
-    <RegistrationForm
-      onSubmit={mockSubmit}
-      submitting={false}
-      submitted
-    />
-  ));
-
