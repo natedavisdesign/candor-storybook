@@ -24,7 +24,7 @@ storiesOf('Buttons', module)
     //Center Add On
     .addDecorator(centered)
     //List out Buttons
-    .add('Lg Primary', () => ( <ButtonLgPrimary />))
+    .add('Lg Primary', () => ( <ButtonLgPrimary title="Testing out Props" />))
     .add('Lg Secondary', () => ( <ButtonLgSecondary />))
     .add('Lg Inverse', () => ( <ButtonLgInverse />))
     .add('Med Primary', () => ( <ButtonMedPrimary />))

@@ -9,6 +9,12 @@ const AddNoImage = styled.div`
     background: #FFFFFF;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,0.08);
     border-radius: 6px 6px 6px 6px;
+    /*transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    &:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+    }*/
 `
 const User = styled.h3`
     padding: 18px 233px 6px 20px;

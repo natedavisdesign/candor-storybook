@@ -22,7 +22,7 @@ const ButtonLgPrimary = styled.button`
 //Component
 const Button = props => (
 
-        <ButtonLgPrimary>Large Primary</ButtonLgPrimary>
+        <ButtonLgPrimary>{props.title}</ButtonLgPrimary>
 
 )
 
