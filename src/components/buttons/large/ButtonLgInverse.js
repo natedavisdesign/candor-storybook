@@ -23,7 +23,8 @@ const ButtonLgInverse = styled.button`
     transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 
     &:active {
-    transform: scale(0.98);
+    transform: scale(0.99);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
     }
 `
 //Component
