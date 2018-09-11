@@ -58,9 +58,9 @@ const Card = props => (
             <User>Jim Morrison</User>
             <Idea>The Signature Room</Idea>
                 <ImageUploads>
-                <Uploads src={require('../../../../public/images/1.jpg')} width="60" />
-                <Uploads src={require('../../../../public/images/2.jpg')} width="60" />
-                <Uploads src={require('../../../../public/images/3.jpg')} width="60" />
+                <Uploads src={require('../../../../../public/images/1.jpg')} width="60" />
+                <Uploads src={require('../../../../../public/images/2.jpg')} width="60" />
+                <Uploads src={require('../../../../../public/images/3.jpg')} width="60" />
                 </ImageUploads>
         </AddWithImage>
 

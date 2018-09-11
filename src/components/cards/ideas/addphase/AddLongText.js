@@ -15,6 +15,12 @@ const AddLongText = styled.div`
     transform: scale(1.1, 1.1);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
     }*/
+    transition: 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+	 
+
+    &:active {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    }
 `
 const User = styled.h3`
     padding: 18px 233px 6px 20px;

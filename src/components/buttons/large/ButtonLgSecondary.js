@@ -18,6 +18,12 @@ const ButtonLgSecondary = styled.button`
     outline: none;
     width: 335px;
     height: 40px;
+
+    transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    &:active {
+    transform: scale(0.98);
+    }
 `
 //Component
 const Button = props => (

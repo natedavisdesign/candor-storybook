@@ -19,6 +19,12 @@ const ButtonSmPrimary = styled.button`
     outline: none;
     width: 100px;
     height: 32px;
+
+    transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    &:active {
+    transform: scale(0.98);
+    }
 `
 //Component
 const Button = props => (
