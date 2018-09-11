@@ -7,10 +7,22 @@ import styles from "@sambego/storybook-styles";
 
 //Gradients
 import GradientBluePink from '../components/swatches/gradients/BluePink.js'
+import GradientPurple from '../components/swatches/gradients/Purple.js'
+import GradientBlue from '../components/swatches/gradients/Blue.js'
+import GradientTeal from '../components/swatches/gradients/Teal.js'
+import GradientYellowPink from '../components/swatches/gradients/YellowPink.js'
+import GradientDarkBlue from '../components/swatches/gradients/DarkBlue.js'
+import GradientRedPink from '../components/swatches/gradients/RedPink.js'
 
 
 storiesOf('Gradients', module)
     //Center Add On
     .addDecorator(centered)
     //List out Buttons
-    .add('Blue Pink', () => ( <GradientBluePink />));
+    .add('Blue Pink', () => ( <GradientBluePink />))
+    .add('Purple', () => ( <GradientPurple />))
+    .add('Blue', () => ( <GradientBlue />))
+    .add('Teal', () => ( <GradientTeal />))
+    .add('Yellow Pink', () => ( <GradientYellowPink />))
+    .add('Dark Blue', () => ( <GradientDarkBlue />))
+    .add('Red Pink', () => ( <GradientRedPink />));

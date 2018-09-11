@@ -11,6 +11,9 @@ const GradientBluePink = styled.div`
     height: 300px;
     background: -webkit-linear-gradient(-180deg, rgb(46, 77, 171), rgb(231, 78, 116));
     background: linear-gradient(-180deg, rgb(46, 77, 171), rgb(231, 78, 116));
+
+   /* background: rgb(46,77,171);
+    background: linear-gradient(180deg, rgba(46,77,171,1) 30%, rgba(231,78,116,1) 100%);*/
 `
 //Component
 const Gradient = props => (
