@@ -117,25 +117,4 @@
     transition-delay: .75s;
   }
   
-  html {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  * {
-    box-sizing: inherit;
-  }
-  *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    min-height: 100vh;
-    color: #ADAFB6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-  }
-
   

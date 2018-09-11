@@ -17,7 +17,7 @@ storiesOf('Input', module)
     //Center Add On
     .addDecorator(centered)
     .addDecorator(styles({
-        background: '#f9f9f9',
+        background: '#fff',
         height: '1000px',
       }))
     //List out different inputs
