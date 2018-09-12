@@ -24,20 +24,12 @@ const AddIcon = styled.img`
 `
 
 
-
-
-
 //Component
 const Button = props => (
 
-		
 		<ButtonMainActionEmpty>
 			<AddIcon src={require('../../../../public/icons/plus.svg')}  />
-		</ButtonMainActionEmpty>
-
-	
-		
-
+		</ButtonMainActionEmpty>	
 )
 
 export default Button

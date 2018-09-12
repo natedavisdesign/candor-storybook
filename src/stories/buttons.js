@@ -19,6 +19,7 @@ import ButtonSmSecondary from '../components/buttons/small/ButtonSmSecondary.js'
 import ButtonAddIdea from '../components/buttons/other/ButtonAddIdea.js'
 
 import ButtonMainActionEmpty from '../components/buttons/circle/ButtonMainActionEmpty.js'
+import ButtonHome from '../components/buttons/circle/ButtonHome.js'
 
 
 
@@ -40,7 +41,8 @@ storiesOf('Buttons', module)
     .add('Sm Primary', () => ( <ButtonSmPrimary />))
     .add('Sm Secondary', () => ( <ButtonSmSecondary />))
     .add('Add Idea', () => ( <ButtonAddIdea />))
-    .add('Main Action: Empty', () => ( <ButtonMainActionEmpty />));
+    .add('Main Action: Empty', () => ( <ButtonMainActionEmpty />))
+    .add('Home Button', () => ( <ButtonHome />));
 
    
     
