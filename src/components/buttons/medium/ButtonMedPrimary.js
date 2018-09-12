@@ -4,7 +4,7 @@ import styled from 'styled-components'
 // Styled Components. CSS directly inside of Component File
 const ButtonMedPrimary = styled.button`
 /*Main Styling*/
-@import url("https://use.typekit.net/aqm4ctq.css");tag
+    @import url("https://use.typekit.net/omz5csa.css");
     padding: 8px 20px;
     font-size: 16px;
     color: #fff;
