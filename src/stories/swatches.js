@@ -14,11 +14,15 @@ import GradientYellowPink from '../components/swatches/gradients/YellowPink.js'
 import GradientDarkBlue from '../components/swatches/gradients/DarkBlue.js'
 import GradientRedPink from '../components/swatches/gradients/RedPink.js'
 
+//Colors
+import ColorPurple from '../components/swatches/colors/Purple.js'
 
-storiesOf('Gradients', module)
+
+
+storiesOf('SWATCH: Gradients', module)
     //Center Add On
     .addDecorator(centered)
-    //List out Buttons
+    //List out Gradients
     .add('Blue Pink', () => ( <GradientBluePink />))
     .add('Purple', () => ( <GradientPurple />))
     .add('Blue', () => ( <GradientBlue />))
@@ -26,3 +30,10 @@ storiesOf('Gradients', module)
     .add('Yellow Pink', () => ( <GradientYellowPink />))
     .add('Dark Blue', () => ( <GradientDarkBlue />))
     .add('Red Pink', () => ( <GradientRedPink />));
+
+storiesOf('SWATCH: Colors', module)
+    //Center Add On
+    .addDecorator(centered)
+    //List out Colors
+    .add('Purple', () => ( <ColorPurple />))
+   ;

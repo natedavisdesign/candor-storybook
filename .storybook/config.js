@@ -6,6 +6,7 @@ function loadStories() {
   require('../src/stories/cards');
   require('../src/stories/input');
   require('../src/stories/swatches');
+  require('../src/stories/textstyles');
   require('../src/stories');
   require('../src/stories/registration-form');
 }

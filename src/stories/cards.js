@@ -25,7 +25,7 @@ storiesOf('Cards', module)
     .addDecorator(centered)
     //Background Add On
     .addDecorator(styles({
-        background: '#e1ecfa',
+        background: '#f9f9f9',
         height: '1000px',
       }))
     //List out Cards

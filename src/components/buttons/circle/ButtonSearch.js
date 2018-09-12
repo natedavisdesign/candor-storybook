@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 // Styled Components. CSS directly inside of Component File
 
-const ButtonHome = styled.div` 
+const ButtonSearch = styled.div` 
 	background-color: rgba(11,11,11,0.20);
 	position: absolute;
 	width: 48px;
@@ -17,7 +17,7 @@ const ButtonHome = styled.div`
     background-color: white;
     }
 `
-const HomeIcon = styled.img`
+const SearchIcon = styled.img`
 	padding: 13px;
     
    
@@ -32,9 +32,9 @@ const HomeIcon = styled.img`
 //Component
 const Button = props => (
 
-		<ButtonHome>
-			<HomeIcon src={require('../../../../public/icons/home-nonactive.svg')}  />
-		</ButtonHome>	
+		<ButtonSearch>
+			<SearchIcon src={require('../../../../public/icons/search-nonactive.svg')}  />
+		</ButtonSearch>	
 )
 
 export default Button
