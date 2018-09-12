@@ -22,6 +22,7 @@ import ButtonMainActionEmpty from '../components/buttons/circle/ButtonMainAction
 import ButtonHome from '../components/buttons/circle/ButtonHome.js'
 import ButtonProfile from '../components/buttons/circle/ButtonProfile.js'
 import ButtonSearch from '../components/buttons/circle/ButtonSearch.js'
+import ButtonMore from '../components/buttons/circle/ButtonMore.js'
 
 
 
@@ -48,15 +49,15 @@ storiesOf('BTNS: Standard', module)
     //Center Add On
     .addDecorator(centered)
     .addDecorator(styles({
-        background: '#f9f9f9',
+        background: '#CFE0F5',
         height: '1000px',
       }))
     //List out Buttons
-   
     .add('Main Action: Empty', () => ( <ButtonMainActionEmpty />))
     .add('Home Button', () => ( <ButtonHome />))
     .add('Profile Button', () => ( <ButtonProfile />))
-    .add('Search Button', () => ( <ButtonSearch />));
+    .add('Search Button', () => ( <ButtonSearch />))
+    .add('More Button', () => ( <ButtonMore />));
 
    
     
