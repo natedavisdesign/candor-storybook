@@ -28,7 +28,7 @@ const User = styled.h3`
     padding: 18px 233px 6px 20px;
     color: #9B9B9B;
     font-size: 12px;
-    font-family: AzoSans-Medium;
+    font-family: "azo-sans-web";
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
@@ -39,7 +39,7 @@ const Idea = styled.p`
     padding: 6px 51px 24px 20px;
     color: #4F505B;
     font-size: 18px;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: left;
     letter-spacing: 0;
@@ -59,7 +59,7 @@ const FaveCounter = styled.p`
     padding-right: 20px;
     color: #3C3A5D;
     font-size: 15px;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: left;
     letter-spacing: 0;
@@ -74,7 +74,7 @@ const CommentCounter = styled.p`
     padding-left: 6px;
     color: #3C3A5D;
     font-size: 15px;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: left;
     letter-spacing: 0;

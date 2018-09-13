@@ -28,7 +28,7 @@ const CandorCreator = styled.p`
     padding: 24px 24px 0px 24px;
     color: #9B9B9B;
     font-size: 12px;
-    font-family: AzoSans-Medium;
+    font-family: "azo-sans-web";
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
@@ -39,7 +39,7 @@ const CandorTitle = styled.p`
     padding: 6px 24px 0px 24px;
     color: #1C1C1F;
     font-size: 18px;
-    font-family: AzoSans-Black;
+    font-family: "azo-sans-web";
     font-weight: 900;
     text-align: left;
     letter-spacing: 0;
@@ -49,7 +49,7 @@ const CandorQuestion = styled.p`
     padding: 8px 24px 24px 24px;
     color: #4F505B;
     font-size: 16px;
-    font-family: AzoSans-Regular;
+    font-family: "azo-sans-web";
     font-weight: normal;
     text-align: left;
     letter-spacing: 0;
@@ -69,7 +69,7 @@ const StatusIndicator = styled.p`
     padding-right: 20px;
     color: #EF5B72;
     font-size: 14px;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: left;
     letter-spacing: 0;

@@ -7,7 +7,7 @@ const ButtonAddIdea = styled.button`
     padding: 4px 10px;
     font-size: 16px;
     color: #0F6DD7;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: center;
     letter-spacing: 0;

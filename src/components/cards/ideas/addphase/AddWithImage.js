@@ -26,7 +26,7 @@ const User = styled.h3`
     padding: 18px 214px 6px 20px;
     color: #9B9B9B;
     font-size: 12px;
-    font-family: AzoSans-Medium;
+    font-family: "azo-sans-web";
     font-weight: 500;
     text-align: left;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ const Idea = styled.p`
     padding: 0px 51px 0px 20px;
     color: #4F505B;
     font-size: 18px;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: left;
     letter-spacing: 0;

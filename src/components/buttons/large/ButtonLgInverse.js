@@ -7,7 +7,7 @@ const ButtonLgInverse = styled.button`
     padding: 8px 20px;
     font-size: 16px;
     color: #1c1c1f;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: center;
     letter-spacing: 0;

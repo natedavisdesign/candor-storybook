@@ -20,7 +20,7 @@ const IdeaText = styled.p`
     padding: 4px 6px 4px 0px;
     color: #FFFFFF;
     font-size: 14px;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: center;
     letter-spacing: 0;
