@@ -30,7 +30,7 @@ const ButtonLgInverse = styled.button`
 //Component
 const Button = props => (
 
-        <ButtonLgInverse>Large Inverse Test</ButtonLgInverse>
+        <ButtonLgInverse>Large Inverse</ButtonLgInverse>
 
 )
 
