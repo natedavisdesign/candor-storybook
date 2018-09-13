@@ -23,6 +23,9 @@ import ButtonHome from '../components/buttons/circle/ButtonHome.js'
 import ButtonProfile from '../components/buttons/circle/ButtonProfile.js'
 import ButtonSearch from '../components/buttons/circle/ButtonSearch.js'
 import ButtonMore from '../components/buttons/circle/ButtonMore.js'
+import ButtonBack from '../components/buttons/circle/ButtonBack.js'
+import ButtonForward from '../components/buttons/circle/ButtonForward.js'
+import ButtonShare from '../components/buttons/circle/ButtonShare.js'
 
 
 
@@ -58,7 +61,11 @@ storiesOf('BTNS: Standard', module)
     .add('Home Button', () => ( <ButtonHome />))
     .add('Profile Button', () => ( <ButtonProfile />))
     .add('Search Button', () => ( <ButtonSearch />))
-    .add('More Button', () => ( <ButtonMore />));
+    .add('More Button', () => ( <ButtonMore />))
+    .add('Share Button', () => ( <ButtonShare />))
+    .add('Back Button', () => ( <ButtonBack />))
+    .add('Forward Button', () => ( <ButtonForward />))
+    ;
 
    
     

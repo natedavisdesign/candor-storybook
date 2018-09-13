@@ -6,7 +6,6 @@ import styled from 'styled-components'
 
 const ButtonSearch = styled.div` 
 	background-color: rgba(11,11,11,0.20);
-	position: absolute;
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;

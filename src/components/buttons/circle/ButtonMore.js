@@ -6,13 +6,14 @@ import styled from 'styled-components'
 
 const ButtonMore = styled.div` 
 	background-color: rgba(11,11,11,0.20);
-	width: 44px;
-	height: 44px;
+	width: 46px;
+	height: 46px;
 	border-radius: 50%;
 	transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 	
     &:active {
     transform: scale(0.98);
+	opacity: 0.9;
     }
 `
 const MoreIcon = styled.div`
@@ -20,6 +21,7 @@ const MoreIcon = styled.div`
 	transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
     
     &:active {
+	opacity: 0.9;
     }
 
    

@@ -6,7 +6,6 @@ import styled from 'styled-components'
 
 const ButtonMainActionEmpty = styled.div` 
 	background-color: white;
-	position: absolute;
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
