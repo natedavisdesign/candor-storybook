@@ -6,6 +6,7 @@ import styles from "@sambego/storybook-styles";
 
 //Importing Components
 
+//IDEA CARDS
 //Add Phase
 import AddNoImage from '../components/cards/ideas/addphase/AddNoImage.js'
 import AddLongText from '../components/cards/ideas/addphase/AddLongText.js'
@@ -20,7 +21,13 @@ import RevealWithImage from '../components/cards/ideas/revealphase/RevealWithIma
 import RevealLongText from '../components/cards/ideas/revealphase/RevealLongText.js'
 
 
-storiesOf('Cards', module)
+//CANDOR CARDS
+import CandorJoined from '../components/cards/candor/CandorJoined.js'
+import CandorCompleted from '../components/cards/candor/CandorCompleted.js'
+import CandorMine from '../components/cards/candor/CandorMine.js'
+
+
+storiesOf('CARDS: Ideas', module)
     //Center Add On
     .addDecorator(centered)
     //Background Add On
@@ -38,6 +45,21 @@ storiesOf('Cards', module)
     .add('Reveal: No Image', () => ( <RevealNoImage idea="Dovetail" />))
     .add('Reveal: With Image', () => ( <RevealWithImage />))
     .add('Reveal: Long', () => ( <RevealLongText />));
+
+    storiesOf('CARDS: Candor', module)
+    //Center Add On
+    .addDecorator(centered)
+    //Background Add On
+    .addDecorator(styles({
+        background: '#f9f9f9',
+        height: '1000px',
+      }))
+    //List out Cards
+    .add('Joined', () => ( <CandorJoined />))
+    .add('Completed', () => ( <CandorCompleted />))
+    .add('Mine', () => ( <CandorMine />))
+    ;
+
 
 /*storiesOf('Ideas', module)
 .add('React: Long', () => ( <ReactLongText />));*/
