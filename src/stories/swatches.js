@@ -16,6 +16,14 @@ import GradientRedPink from '../components/swatches/gradients/RedPink.js'
 
 //Colors
 import ColorPurple from '../components/swatches/colors/Purple.js'
+import ColorBlue from '../components/swatches/colors/Blue.js'
+import ColorBlueLight from '../components/swatches/colors/BlueLight.js'
+import ColorMediumPink from '../components/swatches/colors/MediumPink.js'
+import ColorOffWhite from '../components/swatches/colors/OffWhite.js'
+import ColorPurpleDark from '../components/swatches/colors/PurpleDark.js'
+import ColorRed from '../components/swatches/colors/Red.js'
+import ColorRedDark from '../components/swatches/colors/RedDark.js'
+import ColorTealish from '../components/swatches/colors/Tealish.js'
 
 
 
@@ -36,4 +44,11 @@ storiesOf('SWATCH: Colors', module)
     .addDecorator(centered)
     //List out Colors
     .add('Purple', () => ( <ColorPurple />))
-   ;
+    .add('Purple Dark', () => ( <ColorPurpleDark />))
+    .add('Red', () => ( <ColorRed />))
+    .add('Red Dark', () => ( <ColorRedDark />))
+    .add('Medium Pink', () => ( <ColorMediumPink />))
+    .add('Blue', () => ( <ColorBlue />))
+    .add('Blue Light', () => ( <ColorPurple />))
+    .add('Off White', () => ( <ColorOffWhite />))
+    .add('Tealish', () => ( <ColorTealish />));

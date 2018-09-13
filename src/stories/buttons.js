@@ -27,7 +27,7 @@ import ButtonMore from '../components/buttons/circle/ButtonMore.js'
 
 
 
-
+//Standard Buttons
 storiesOf('BTNS: Standard', module)
     //Center Add On
     .addDecorator(centered)
@@ -44,7 +44,8 @@ storiesOf('BTNS: Standard', module)
     .add('Sm Primary', () => ( <ButtonSmPrimary />))
     .add('Sm Secondary', () => ( <ButtonSmSecondary />))
     .add('Add Idea', () => ( <ButtonAddIdea />));
-
+    
+//Buttons with Icons
     storiesOf('BTNS: Icons', module)
     //Center Add On
     .addDecorator(centered)
