@@ -5,7 +5,7 @@ import styled from 'styled-components'
 // Styled Components. CSS directly inside of Component File
 
 const CandorQuestion = styled.p` 
-  font-family: AzoSans-medium;
+  font-family: "azo-sans-web";
   font-size: 16px;
   font-weight: 500;
   font-style: normal;

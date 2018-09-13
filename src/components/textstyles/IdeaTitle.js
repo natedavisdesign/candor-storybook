@@ -5,7 +5,7 @@ import styled from 'styled-components'
 // Styled Components. CSS directly inside of Component File
 
 const IdeaTitle = styled.p` 
-  font-family: AzoSans-Bold;
+  font-family: "azo-sans-web";
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
