@@ -5,7 +5,7 @@ import styled from 'styled-components'
 // Styled Components. CSS directly inside of Component File
 
 const BodyLarge = styled.p` 
-  font-family: azo-sans-web-black;
+  font-family: "azo-sans-web";
   font-size: 18px;
   font-weight: 900;
   font-style: normal;

@@ -14,7 +14,7 @@ const TagText = styled.h3`
     height: 16px;
     color: #FFFFFF;
     font-size: 12px;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
