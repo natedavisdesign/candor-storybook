@@ -7,7 +7,7 @@ const ButtonSmSecondary = styled.button`
     padding: 4px 10px;
     font-size: 12px;
     color: #fff;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: center;
     letter-spacing: 0;

@@ -7,7 +7,7 @@ const ButtonLgPrimary = styled.button`
     padding: 8px 20px;
     font-size: 16px;
     color: #fff;
-    font-family: AzoSans-Bold;
+    font-family: "azo-sans-web";
     font-weight: bold;
     text-align: center;
     letter-spacing: 0;
