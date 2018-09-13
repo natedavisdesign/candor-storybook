@@ -14,7 +14,7 @@ import GeneralField from '../components/input/fields/general/GeneralField.js'
 
 
 
-storiesOf('Input', module)
+storiesOf('INPUT', module)
     //Center Add On
     .addDecorator(centered)
     .addDecorator(styles({

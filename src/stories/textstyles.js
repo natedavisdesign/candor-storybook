@@ -25,7 +25,7 @@ import BodySmall from '../components/textstyles/BodySmall.js'
 
 
 
-storiesOf('Text Styles', module)
+storiesOf('TEXT STYLES', module)
     //Center Add On
     .addDecorator(centered)
     .addDecorator(styles({
