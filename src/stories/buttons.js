@@ -19,7 +19,8 @@ import ButtonSmSecondary from '../components/buttons/small/ButtonSmSecondary.js'
 import ButtonAddIdea from '../components/buttons/other/ButtonAddIdea.js'
 import ButtonRow from '../components/buttons/other/ButtonRow.js'
 //Circular & Nav Icons
-import ButtonMainActionEmpty from '../components/buttons/circle/ButtonMainActionEmpty.js'
+import ButtonMainActionPulse from '../components/buttons/circle/ButtonMainActionPulse.js'
+import ButtonMainAction from '../components/buttons/circle/ButtonMainAction.js'
 import ButtonHome from '../components/buttons/circle/ButtonHome.js'
 import ButtonProfile from '../components/buttons/circle/ButtonProfile.js'
 import ButtonSearch from '../components/buttons/circle/ButtonSearch.js'
@@ -60,7 +61,8 @@ storiesOf('BTNS: Standard', module)
         height: '1000px',
       }))
     //List out Buttons
-    .add('Main Action: Empty', () => ( <ButtonMainActionEmpty />))
+    .add('Main Action Button', () => ( <ButtonMainAction />))
+    .add('Main Action: Pulse', () => ( <ButtonMainActionPulse />))
     .add('Home Button', () => ( <ButtonHome />))
     .add('Profile Button', () => ( <ButtonProfile />))
     .add('Search Button', () => ( <ButtonSearch />))
