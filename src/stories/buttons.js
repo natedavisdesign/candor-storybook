@@ -17,6 +17,7 @@ import ButtonSmPrimary from '../components/buttons/small/ButtonSmPrimary.js'
 import ButtonSmSecondary from '../components/buttons/small/ButtonSmSecondary.js'
 //Other 
 import ButtonAddIdea from '../components/buttons/other/ButtonAddIdea.js'
+import ButtonRow from '../components/buttons/other/ButtonRow.js'
 //Circular & Nav Icons
 import ButtonMainActionEmpty from '../components/buttons/circle/ButtonMainActionEmpty.js'
 import ButtonHome from '../components/buttons/circle/ButtonHome.js'
@@ -26,6 +27,7 @@ import ButtonMore from '../components/buttons/circle/ButtonMore.js'
 import ButtonBack from '../components/buttons/circle/ButtonBack.js'
 import ButtonForward from '../components/buttons/circle/ButtonForward.js'
 import ButtonShare from '../components/buttons/circle/ButtonShare.js'
+
 
 
 
@@ -46,7 +48,8 @@ storiesOf('BTNS: Standard', module)
     .add('Med Secondary', () => ( <ButtonMedSecondary />))
     .add('Sm Primary', () => ( <ButtonSmPrimary />))
     .add('Sm Secondary', () => ( <ButtonSmSecondary />))
-    .add('Add Idea', () => ( <ButtonAddIdea />));
+    .add('Add Idea', () => ( <ButtonAddIdea />))
+    .add('Row Button', () => ( <ButtonRow />));
     
 //Buttons with Icons
     storiesOf('BTNS: Icons', module)
@@ -65,6 +68,7 @@ storiesOf('BTNS: Standard', module)
     .add('Share Button', () => ( <ButtonShare />))
     .add('Back Button', () => ( <ButtonBack />))
     .add('Forward Button', () => ( <ButtonForward />))
+   
     ;
 
    
