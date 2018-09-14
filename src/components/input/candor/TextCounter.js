@@ -1,4 +1,24 @@
-import $ from 'jquery';
+
+
+
+
+
+
+
+/*var button = document.getElementById("counting"),
+    paragraph = document.getElementById("CandorTitleTest");
+
+button.addEventListener("keyup", function(){
+  if (paragraph.style.display == 'none') {
+    paragraph.style.display = 'block';
+  } else {
+    paragraph.style.display = 'none';
+  }
+}, false);*/
+
+
+
+/*import $ from 'jquery';
 
 
 $(function(){
