@@ -10,6 +10,9 @@ import styles from "@sambego/storybook-styles";
 //Text Fields
 import PasswordField from '../components/input/fields/password/PasswordField.js'
 import GeneralField from '../components/input/fields/general/GeneralField.js'
+import CandorTitle from '../components/input/candor/CandorTitle.js'
+import CandorQuestion from '../components/input/candor/CandorQuestion.js'
+
 
 
 
@@ -24,4 +27,6 @@ storiesOf('INPUT', module)
     //List out different inputs
     
     .add('Password Field', () => ( <PasswordField />))
-    .add('General Field', () => ( <GeneralField />));
+    .add('General Field', () => ( <GeneralField />))
+    .add('Candor Title', () => ( <CandorTitle />))
+    .add('Candor Question', () => ( <CandorQuestion />));

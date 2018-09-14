@@ -12,7 +12,7 @@ const ButtonShare = styled.div`
 	height: 46px;
 	border-radius: 50%;
 	transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-   
+	
   	
 	
     &:active {
@@ -24,7 +24,8 @@ const ButtonShare = styled.div`
 const ShareIcon = styled.div`
 	fill: white;
 	transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-	margin: 3px 1px;
+	
+
 	& > svg {
 
 	}
