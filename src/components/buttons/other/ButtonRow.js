@@ -38,7 +38,7 @@ const RowText = styled.p`
     padding-left: 16px;
     color: #4F505B;
     font-size: 16px;
-    font-family: AzoSans-Regular;
+    font-family: "azo-sans-web";
     font-weight: normal;
     text-align: left;
     letter-spacing: 0;
